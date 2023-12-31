@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Netflix.css">
+    <script src="Netflix.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="banner">
+        <div class="nav" id="nav">
+
+            <img src="netflix-images/netflix-logo.png" alt="" class="nav-logo">
+
+
+        </div>
+
+        <div class="banner-content">
+
+            <h1 class="banner-title">MONEY HEIST</h1>
+
+            <a href="https://www.netflix.com/watch/80205342?trackId=255824129">
+            <button class="banner-buttons"> PLAY</button></a>
+            <button class="banner-buttons">MY LIST</button>
+
+        </div>
+
+        <div class="banner-description">
+
+            <p>
+                A person known as the Professor recruits a band of eight robbers who have a single feature to carry out
+                the greatest heist ever :
+                not one of them has anything to lose. Five weeks of seclusion - memorizing every step, every detail,
+                every opportunity - culminate
+                in eleven days locked up from the National Coinage and Stamp Factory of Spain, surrounded by police
+                forces and with heaps of
+                hostages in their capability, to learn whether their suicide bet will result in nothing or everything.
+            </p>
+
+        </div>
+
+        <div class="banner-fade"></div>
+
+    </div>
+
+
+    <h2 class="headings">Netflix Originals</h2>
+    <div class="carousel position-relative">
+        <div class="carousel-left-parent">
+            <img class="carousel-left" src="assets/Images//left-chevron.png" onclick="slideRight(this);">
+        </div>
+        <div class="carousel-right-parent">
+            <img class="carousel-right" src="assets/Images//chevron.png" onclick="slideLeft(this);">
+        </div>
+
+        <div class="row flt-left">
+
+            <div class="row row-container ">
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie1.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie2.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/Extraction2.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/Luther.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/The_Irishman.webp" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/TheKiller.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/MurderMystery2.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie3.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie4.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie5.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie6.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie7.jpg" />
+                </div>
+                <div class="container row_images" id="orig">
+                    <img src="netflix-images/large-movie8.jpg" />
+                </div>
+            </div>
+
+        </div>
+        <!-- <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+        <div class="clear"></div>
+    </div>
+
+
+    <h2 class="headings">Trending Now</h2>
+    
+    
+    <div class="carousel position-relative">
+        <div class="carousel-left-parent">
+            <img class="carousel-left" src="assets/Images//left-chevron.png" onclick="slideRighttrend(this);">
+        </div>
+        <div class="carousel-right-parent">
+            <img class="carousel-right" src="assets/Images//chevron.png" onclick="slideLefttrend(this);">
+        </div>
+
+        <div class="row flt-left">
+
+            <div class="row row-container2 trend">
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Mortal Combat.png" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/TopGun.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Peaky Blinders.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/godzilla-vs-kong-poster-banner.webp" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/breaking-bad-2.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/avengers.webp" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Joker.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Creed.jpeg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/X-Men.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/1917.jpg" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Triple-Frontier-Banner-Poster.webp" />
+                    </div>
+                    <div class="container container1 row_images" id="trending">
+                        <img src="netflix-images/Lincoln-Movie-Poster-600.jpg" />
+                    </div>
+                    
+            </div>
+
+        </div>
+        <!-- <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+        <div class="clear"></div>
+    </div>
+
+    <!-- <div class="row">
+
+        <div class="row_images" id="trending">
+
+            <img src="netflix-images/small-movie1.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie2.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie3.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie4.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie5.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie6.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie7.jpg" alt="" class="row_image row_images_small">
+            <img src="netflix-images/small-movie8.jpg" alt="" class="row_image row_images_small">
+
+        </div>
+    </div> -->
+
+    <h2 class="headings">Popular Movies</h2>
+    <div class="carousel position-relative">
+        <div class="carousel-left-parent">
+            <img class="carousel-left" src="assets/Images//left-chevron.png" onclick="slideRightpop(this);">
+        </div>
+        <div class="carousel-right-parent">
+            <img class="carousel-right" src="assets/Images//chevron.png" onclick="slideLeftpop(this);">
+        </div>
+
+        <div class="row flt-left">
+
+            <div class="row row-container pop">
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/300.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/John Wick Parabellum.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/Brooklyn 99.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/The Crown.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/GI Joe Retaliation.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/The Lincon Lawyer (2).jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/Suits.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/F&F Tokyo Drift.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/Shawshank Redemption.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/JohnWick.jpg" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/Wonka.webp" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/LordOfWar.avif" />
+                </div>
+                    <div class="container row_images" id="popular">
+                    <img src="netflix-images/Goodfellas.avif" />
+                </div>
+                <div class="container row_images" id="popular">
+                    <img src="netflix-images/Harry Potter.jpg" />
+                </div>
+                   
+            </div>
+
+        </div>
+        <!-- <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+        <div class="clear"></div>
+    </div>
+
+    <h2 class="headings">Gangster Action Movies</h2>
+    <div class="carousel position-relative">
+        <div class="carousel-left-parent">
+            <img class="carousel-left" src="assets/Images//left-chevron.png" onclick="slideRightgang(this);">
+        </div>
+        <div class="carousel-right-parent">
+            <img class="carousel-right" src="assets/Images//chevron.png" onclick="slideLeftgang(this);">
+        </div>
+
+        <div class="row flt-left">
+
+            <div class="row gang">
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/The Godfather.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/AKA.webp" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Don 1.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Jack Reacher.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/The Equalizer.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Don 2.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Blackout.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/2 Fast 2 Furious.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Race 2.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Vandetta.png" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/The Outfit.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Maria.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/The drug King.jpg" />
+                    </div>
+                    <div class="container row_images" id="gangster">
+                        <img src="netflix-images/Raees.jpg" />
+                    </div>
+            </div>
+
+        </div>
+        <!-- <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+        <div class="clear"></div>
+    </div>
+
+    <h2 class="headings">Indian Movies</h2>
+    <div class="carousel position-relative">
+        <div class="carousel-left-parent">
+            <img class="carousel-left" src="assets/Images//left-chevron.png" onclick="slideRightindia(this);">
+        </div>
+        <div class="carousel-right-parent">
+            <img class="carousel-right" src="assets/Images//chevron.png" onclick="slideLeftindia(this);">
+        </div>
+
+        <div class="row flt-left">
+
+            <div class="row india">
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/gully boy.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Dangal.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Madras Cafe.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/3 idiots.webp" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/8 3.webp" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Munna Bhai MBBS.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Bhaag Milkha Bhaag.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Haider.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Gangs Of Wasseypur.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Animal.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Phantom.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Dhoom 3.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Kesari.jpg" />
+                    </div>
+                    <div class="container row_images" id="indian">
+                        <img src="netflix-images/Mohenjo Daro.jpg" />
+                    </div>
+            </div>
+
+        </div>
+        <!-- <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+        <div class="clear"></div>
+    </div>
+
+    <div class="separation"></div>
+
+    <footer>
+       
+        <h3 class="f_h">Contact Us</h3>
+        <ul>
+
+            <li>Email: rajag47786@gmail.com</li>
+            <li>Phone No: 03105088596</li>
+            <li>Email: arham.zargham19@gmail.com</li>
+            <li>Phone No: 03355444781</li>
+
+        </ul>
+        <h4 class="BB">Rights Reserved By: <br> </h4>
+        <h4 class="BB" style="color: darkgreen;" >Byte Brigade</h4>
+    </footer>
+
+
+</body>
+
+</html>
